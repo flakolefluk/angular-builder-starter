@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "title": "Custom builder schema",
+    "description": "Custom builder description",
+    "type": "object",
+    "properties": {
+      "log": {
+        "type": "boolean",
+        "description": "If true, log messages",
+        "default": true
+      }
+    },
+    "additionalProperties": false
+  }
+  
